@@ -1,0 +1,54 @@
+*{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "JetBrainsMono Nerd Font";
+    src: url(fonts/JetBrainsMonoNerdFont-Medium.ttf) format("truetype");
+}
+
+body{
+    margin : 0;
+    font-family: JetBrainsMono Nerd Font;
+}
+
+.header{
+    background: #FFC15E; 
+    padding-right: 15px; 
+    padding-left: 15px;
+}
+
+.headdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: 600;
+    color: #1F1300;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: #1F1300;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+li img {
+    color: #1F1300;
+    vertical-align: middle;
+}
+
+.linkedin-icon{
+    color: #1F1300;
+    height: 36px;
+    width: 36px;
+}
