@@ -10,6 +10,7 @@
 body{
     margin : 0;
     font-family: "JetBrainsMono Nerd Font", monospace;
+    background-color: #FAFFD8;
 }
 
 a{
@@ -37,7 +38,7 @@ a{
 
 .header li a {
     color: #000;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
     margin-right: 0;
 }
@@ -50,11 +51,11 @@ a{
 
 .linkedin-icon,
 .github-icon {
-    height: 36px;
-    width: 36px;
+    height: 50px;
+    width: 50px;
 }
 
-.logo{
+#cb-logo {
     height: 45px;
     width: 47px;
     margin-top: 4px;
@@ -65,8 +66,16 @@ a{
     align-items: center;
 }
 
+.button {
+    color: #394648;
+    background-color: #77A0A9;
+    border-radius: 5px;
+    padding: 3px;
+}
+
 .button:hover {
     color: #394648;
+    background-color: #1f5663;
 }
 
 #hero{
@@ -83,5 +92,30 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #394648;
+    /* background-color: #394648; */
 }
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.header-logo{
+    padding: 5px;
+}
+
+.mode-button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
